@@ -91,3 +91,4 @@ Ses, model ve diğer varlıkların kaynakları için bkz. [CREDITS.md](CREDITS.m
 
 **Geliştiren:** Görkem Arıtaşı · Unity 6 (URP), C#, TextMeshPro, Input System, AI Navigation
 
+

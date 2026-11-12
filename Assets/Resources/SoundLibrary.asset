@@ -1,0 +1,143 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5210875ab3d5a14c9402629032801f1, type: 3}
+  m_Name: SoundLibrary
+  m_EditorClassIdentifier: Assembly-CSharp::SoundLibrary
+  spellCast:
+    clips:
+    - {fileID: 8300000, guid: 5b19e2b19d2f1634cad993543a807963, type: 3}
+    - {fileID: 8300000, guid: 21110e73a6908024ea851127f74f9201, type: 3}
+    - {fileID: 8300000, guid: c9b373f8d8cc87f48aa19608e2368349, type: 3}
+    - {fileID: 8300000, guid: 763d888928b02c440bb67f63d6a44c90, type: 3}
+    - {fileID: 8300000, guid: 9ae7ff177de4e0d428c109a5e34d1f98, type: 3}
+    - {fileID: 8300000, guid: cba0ca29d3b96a840a177002bfb19f57, type: 3}
+    volume: 0.7
+    pitch: {x: 1.4, y: 1.6}
+  spellCastLayer:
+    clips:
+    - {fileID: 8300000, guid: 20d1f0e37b6f5b84884ed9c5444653f9, type: 3}
+    - {fileID: 8300000, guid: d606530264c57d044b1b506aa119cf49, type: 3}
+    - {fileID: 8300000, guid: 634af0b8d37d5984596f3029e1d0621f, type: 3}
+    - {fileID: 8300000, guid: cfff3d3be5ad5544fbb8bd566529e5ea, type: 3}
+    - {fileID: 8300000, guid: 7724bbe1119d6e54da35a75d78ff128f, type: 3}
+    - {fileID: 8300000, guid: 4c0abdc001219614ba425bd0e1ff3798, type: 3}
+    volume: 0.3
+    pitch: {x: 1.3, y: 1.5}
+  spellImpact:
+    clips:
+    - {fileID: 8300000, guid: 5c82f7fc4e7737049a4195d6a45d11e2, type: 3}
+    - {fileID: 8300000, guid: 0d4b0afe4c64a5f4bb5c54da0206433c, type: 3}
+    - {fileID: 8300000, guid: 08a827f442031984bb0e7a9a9327b665, type: 3}
+    - {fileID: 8300000, guid: b242f1641cfc2244cb20f21b1b7c4dd2, type: 3}
+    - {fileID: 8300000, guid: 538c28d210792d040aaf14a6f1da5411, type: 3}
+    volume: 0.55
+    pitch: {x: 0.95, y: 1.15}
+  enemyRise:
+    clips:
+    - {fileID: 8300000, guid: 57a4db3020433ab47b28ccaeedb8a9c9, type: 3}
+    - {fileID: 8300000, guid: 820703bf0f66d414c82d6d3426f1f9ed, type: 3}
+    - {fileID: 8300000, guid: 6f224e0141c549542a394f1d1c1264bb, type: 3}
+    - {fileID: 8300000, guid: 1934de53c5ff9af42b89a00b69b84ce6, type: 3}
+    - {fileID: 8300000, guid: f86e1531cca7a08418fd93bdc72c5523, type: 3}
+    volume: 0.8
+    pitch: {x: 0.7, y: 0.85}
+  enemySwing:
+    clips:
+    - {fileID: 8300000, guid: ebba855f4a58ebf429013a3be5d519da, type: 3}
+    - {fileID: 8300000, guid: 9aceebcc50dd11145b914fd76e6b2733, type: 3}
+    volume: 0.6
+    pitch: {x: 0.85, y: 1}
+  enemyHit:
+    clips:
+    - {fileID: 8300000, guid: 932efaa640679be43af84e4e33286691, type: 3}
+    - {fileID: 8300000, guid: fd5bd2adc7268df40aa376914e63d5e0, type: 3}
+    - {fileID: 8300000, guid: 0e4ce9a67730da54b99f7531d39c1c17, type: 3}
+    - {fileID: 8300000, guid: 9407216ed30b9914eaf94796d5667519, type: 3}
+    - {fileID: 8300000, guid: b995b1cc824c572468e9b32333abb60b, type: 3}
+    volume: 0.8
+    pitch: {x: 0.95, y: 1.15}
+  enemyDeath:
+    clips:
+    - {fileID: 8300000, guid: 2ba847b84ac8718469ea9356976d7a64, type: 3}
+    - {fileID: 8300000, guid: a0226743c48d1994aba0ec620ca51ab6, type: 3}
+    - {fileID: 8300000, guid: 18c115295fe2e9f47924508d1f6dbff0, type: 3}
+    - {fileID: 8300000, guid: a9c707e73d93ef249bff350326aeb197, type: 3}
+    - {fileID: 8300000, guid: b0a4da46a8f2df7488a40360c4c1f0b2, type: 3}
+    volume: 1
+    pitch: {x: 0.8, y: 0.95}
+  playerHurt:
+    clips:
+    - {fileID: 8300000, guid: cee45a07656aa214b94a3de25d7bfdf7, type: 3}
+    - {fileID: 8300000, guid: 5897073887301fa4a9676b528e2fe0e2, type: 3}
+    - {fileID: 8300000, guid: 22f2080926cc3894399d1962099e91f5, type: 3}
+    - {fileID: 8300000, guid: 313f5d6453af706498625ed4e480675d, type: 3}
+    - {fileID: 8300000, guid: 76f7cbedd6f8e97489d5fe862fb88c0b, type: 3}
+    volume: 0.9
+    pitch: {x: 0.9, y: 1.05}
+  playerDeath:
+    clips:
+    - {fileID: 8300000, guid: a28d329ba51365442a84b5f36eb4d14b, type: 3}
+    - {fileID: 8300000, guid: 9a8d6aaa6ae3a1d4098ec4e8f77090fd, type: 3}
+    volume: 0.8
+    pitch: {x: 0.7, y: 0.8}
+  footstep:
+    clips:
+    - {fileID: 8300000, guid: f59bbc8254bb4014b997fc69c4f6541c, type: 3}
+    - {fileID: 8300000, guid: 45cf7a74bdaae9248bf357d3bd822ef0, type: 3}
+    - {fileID: 8300000, guid: 816ba58d130263243aeb06e59dea14dd, type: 3}
+    - {fileID: 8300000, guid: aa173b1147331504d9008a528f4c60f7, type: 3}
+    - {fileID: 8300000, guid: 4d093100f99110549bbef9c095caa4bb, type: 3}
+    volume: 0.35
+    pitch: {x: 0.9, y: 1.1}
+  coin:
+    clips:
+    - {fileID: 8300000, guid: 2ad8e754174bd9c48803d2f7e7304a91, type: 3}
+    - {fileID: 8300000, guid: 547de422e10255545b7503d3bfbd87da, type: 3}
+    volume: 0.55
+    pitch: {x: 1, y: 1.2}
+  waveStart:
+    clips:
+    - {fileID: 8300000, guid: 238e76618f52b384393a16789ae39f98, type: 3}
+    - {fileID: 8300000, guid: 1353c3ff2032ac640929fe513dfaa5a2, type: 3}
+    - {fileID: 8300000, guid: bc43d34caa501ae4eab1ecb6a0a339b8, type: 3}
+    - {fileID: 8300000, guid: 44c02efdb1e201e4388bda7cdd996b9e, type: 3}
+    - {fileID: 8300000, guid: 9f3d59e34fd435d4c9ec867d88092152, type: 3}
+    volume: 0.7
+    pitch: {x: 0.55, y: 0.6}
+  waveCleared:
+    clips:
+    - {fileID: 8300000, guid: 528c5fc64a6a0d149a3682654affff83, type: 3}
+    - {fileID: 8300000, guid: cf1893f3611de3049b5528271d07aad7, type: 3}
+    - {fileID: 8300000, guid: b98e4ac4b582cc34ea2c9a7689534bae, type: 3}
+    - {fileID: 8300000, guid: 3d492a54156ba9449aac9eed36218118, type: 3}
+    volume: 0.6
+    pitch: {x: 1, y: 1}
+  uiClick:
+    clips:
+    - {fileID: 8300000, guid: aea3de1e5b42922449620d5d56113b9e, type: 3}
+    - {fileID: 8300000, guid: 3577a691e306b8a4bb95efb800608c37, type: 3}
+    - {fileID: 8300000, guid: 1e24064e8d47de84780106ec30e8d2e4, type: 3}
+    - {fileID: 8300000, guid: ca6668b196bb8924ea829dfa467a9352, type: 3}
+    - {fileID: 8300000, guid: b400dd2c36e334642965851b7a513832, type: 3}
+    volume: 0.6
+    pitch: {x: 0.95, y: 1.05}
+  uiHover:
+    clips:
+    - {fileID: 8300000, guid: 822abdcbacb487a4e8ec761ec6844213, type: 3}
+    - {fileID: 8300000, guid: efadaad4c62038d429616e5db9565056, type: 3}
+    - {fileID: 8300000, guid: 005d01dfd8c402a4f8a3138236dbcd1d, type: 3}
+    volume: 0.35
+    pitch: {x: 1, y: 1.1}
+  menuMusic: {fileID: 8300000, guid: edc6e5c2dd84a9e4b85ca08a581cebef, type: 3}
+  menuMusicVolume: 0.5
+  arenaAmbience: {fileID: 8300000, guid: 4ca73c970e8d4964a9c33b4bfd843d66, type: 3}
+  arenaAmbienceVolume: 0.4

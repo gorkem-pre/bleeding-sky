@@ -1,0 +1,55 @@
+# Unity'nin urettigi klasorler
+/[Ll]ibrary/
+/[Tt]emp/
+/[Oo]bj/
+/[Bb]uild/
+/[Bb]uilds/
+/[Ll]ogs/
+/[Uu]ser[Ss]ettings/
+/[Mm]emoryCaptures/
+/[Rr]ecordings/
+
+# IDE dosyalari
+.vs/
+.idea/
+.vscode/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+*.pidb
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+
+# Gecici dosyalar
+sysinfo.txt
+crashlytics-buildid.txt
+/[Aa]ssets/[Aa]ssetStoreTools*
+
+# Build ciktilari
+*.apk
+*.aab
+*.unitypackage
+
+# Isletim sistemi
+.DS_Store
+Thumbs.db
+desktop.ini
+# Asset Store paketleri (lisans gereği yeniden dağıtılamaz)
+/Assets/Low Poly Graveyard*
+/Assets/LowPolyDungeonsLite*
+/Assets/Mini Legion Lich*
+/Assets/SazenGames*
+/Assets/SimpleNaturePack*
+/Assets/Stylized*
+/Assets/Wizard*
+/Assets/TutorialInfo*
+
+# Hile laboratuvarı araçları (public repo'ya girmez)
+*.CT
+*.ct
+/Security/*.lua
+
